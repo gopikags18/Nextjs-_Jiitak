@@ -107,7 +107,7 @@ export default function Dashboard() {
 
           <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-4">
             <li>
-              <Link href="/dashboard" className="text-black no-underline">
+              <Link href="/dashboard"  className="text-black no-underline" style={{textDecoration: "none"}}>
                 Dashboard
               </Link>
             </li>

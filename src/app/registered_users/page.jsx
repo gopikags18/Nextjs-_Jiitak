@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { regData } from "@/data/dummyReg"; // adjust path based on your folder structure
+import { regData } from "@/data/dummyReg"; 
 import { Tooltip } from "react-tooltip";
 
 export default function RegisteredUsers() {
@@ -19,7 +19,6 @@ export default function RegisteredUsers() {
       <div className="drawer lg:drawer-open">
         <input id="my-drawer" type="checkbox" className="drawer-toggle" />
 
-        {/* Drawer Content */}
         <div className="drawer-content">
           {/* Header & Search */}
           <div className="flex justify-between items-center m-3">
